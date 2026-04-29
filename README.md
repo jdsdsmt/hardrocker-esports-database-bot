@@ -79,8 +79,6 @@ The `/query` group includes:
 - `bot/services/api_client.py`: shared API client and contract-preview behavior
 - `EXPECTED_API_ENDPOINTS.md`: expected API endpoint contract generated from the SQL schema
 
-Legacy member-only placeholder modules remain in `bot/domain/` and `bot/services/member_service.py`, but the active commands now use the shared API client.
-
 ## Run with Docker
 
 Build the image:
